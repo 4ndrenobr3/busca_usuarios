@@ -22,9 +22,14 @@ class HomeController
 
     public function search()
     {
-        $customer = filter_input(INPUT_POST, 'customer_name', FILTER_SANITIZE_STRING);
-        $customers = new Customer(Connection::getInstance());
-        $customers = $customers->find($customer);
-        return  $this->view('table', ['customers' => $customers]);
+        $customerInput = filter_input(INPUT_POST, 'customer_name', FILTER_SANITIZE_STRING);
+        $customer = new Customer(Connection::getInstance());
+        $customers = $customer->findCustomer($customerInput);
+
+        $categories = $customer->findCategory();
+        return  $this->view('table', [
+            'customers' => $customers,
+            'categories' => $categories
+        ]);
     }
 }

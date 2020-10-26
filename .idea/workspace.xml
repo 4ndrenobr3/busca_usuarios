@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75e9e60e-c7f1-46c8-b42e-057832672c27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.php.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/table.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/table.php.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Customer.php" afterDir="false" />
     </list>
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603675012065</updated>
       <workItem from="1603675013324" duration="2329000" />
-      <workItem from="1603699798020" duration="4425000" />
+      <workItem from="1603699798020" duration="6638000" />
     </task>
     <servers />
   </component>
