@@ -1,0 +1,17 @@
+{
+    "name": "andrenobre/busca_usuario",
+    "description": "Aplicação para efetuar busca por clientes listando seus dados.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "4ndrenobr3",
+            "email": "nobre4ndr3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SearchApp\\" : "src/"
+        }
+    },
+    "require": {}
+}
