@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75e9e60e-c7f1-46c8-b42e-057832672c27" name="Default Changelist" comment="" />
+    <list default="true" id="75e9e60e-c7f1-46c8-b42e-057832672c27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/busca_usuario.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/busca_usuario.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1jOVEB4pRaTeyawI6Z0PvXasXwG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603675012065</updated>
-      <workItem from="1603675013324" duration="1804000" />
+      <workItem from="1603675013324" duration="2329000" />
+      <workItem from="1603699798020" duration="284000" />
     </task>
     <servers />
   </component>
@@ -44,9 +59,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="72" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603676597989" />
-    <state x="487" y="283" key="NewPhpFileDialog" timestamp="1603676608177">
+    <state x="487" y="283" key="NewPhpFileDialog" timestamp="1603676987349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="487" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603676608177" />
+    <state x="487" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603676987349" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603677090961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603677090961" />
   </component>
 </project>

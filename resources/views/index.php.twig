@@ -1,0 +1,53 @@
+{% extends "layout.php.twig" %}
+
+{% block body %}
+    <div class="container">
+        <h1>Busca por Clientes</h1>
+
+        <form id="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" name="customer-name" id="customer-name">
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="category" name="category">
+                    <option>Pessoa Física</option>
+                    <option>Pessoa Juridica</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-lg btn-primary">Pesquisar</button>
+            </div>
+        </form>
+
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Categoria</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Mark</td>
+                <td>mark@email.com</td>
+                <td>Pessoa fisica</td>
+            </tr>
+            <tr>
+                <td>Jacob</td>
+                <td>jacob@email.com</td>
+                <td>Pessoa Juridica</td>
+            </tr>
+            <tr>
+                <td>Larry</td>
+                <td>larry@email.com</td>
+                <td>Pessoa Juridica</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="result">
+
+    </div>
+
+{% endblock %}
