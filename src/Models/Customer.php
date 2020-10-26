@@ -16,10 +16,10 @@ class Customer
         $sql =  'SELECT * FROM '. $this->table .' WHERE name = :name';
 
         $get = $this->conn->prepare($sql);
-        $get->bindValue(':name', $name, \PDO::PARAM_INT);
+        $get->bindValue(':name', $name, \PDO::PARAM_STR);
 
         $get->execute();
 
-        return $get->fetch(\PDO::FETCH_ASSOC);
+        return $get->fetchAll(\PDO::FETCH_ASSOC);
     }
 }

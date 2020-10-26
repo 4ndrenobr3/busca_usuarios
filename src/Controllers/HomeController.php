@@ -17,14 +17,14 @@ class HomeController
 
     public function index()
     {
-        //return $this->view('index');
-        $cliente = new Customer(Connection::getInstance());
-        var_dump($cliente->find());
+        return $this->view('index');
     }
 
     public function search()
     {
         $customer = filter_input(INPUT_POST, 'customer_name', FILTER_SANITIZE_STRING);
-        return  $customer . 'Este esta vindo pelo controller';
+        $customers = new Customer(Connection::getInstance());
+        $customers = $customers->find($customer);
+        return  $this->view('table', ['customers' => $customers]);
     }
 }

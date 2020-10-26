@@ -1,0 +1,25 @@
+{% extends "layout.php.twig" %}
+
+{% block table %}
+    <div class="container">
+        <table class="table table-borderless">
+            <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Categoria</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for customer in customers %}
+            <tr>
+                <td>{{ customer.name }}</td>
+                <td>{{ customer.email }}</td>
+                <td>{{ customer.categories_id }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
