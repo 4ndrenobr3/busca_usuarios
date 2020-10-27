@@ -26,10 +26,8 @@ class HomeController
         $customer = new Customer(Connection::getInstance());
         $customers = $customer->findCustomer($customerInput);
 
-        $categories = $customer->findCategory();
         return  $this->view('table', [
-            'customers' => $customers,
-            'categories' => $categories
+            'customers' => $customers
         ]);
     }
 }

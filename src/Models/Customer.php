@@ -12,7 +12,10 @@ class Customer
 
     public function findCustomer($name)
     {
-        $sql =  'SELECT * FROM customers WHERE name = :name';
+        //$sql =  'SELECT * FROM customers WHERE name = :name';
+        $sql = 'SELECT c.*, t.id categories_id, t.name categories
+				FROM customers c
+				LEFT JOIN categories t ON c.categories_id = t.id WHERE c.name = :name';
 
         $get = $this->conn->prepare($sql);
         $get->bindValue(':name', $name, \PDO::PARAM_STR);
@@ -22,14 +25,4 @@ class Customer
         return $get->fetchAll(\PDO::FETCH_ASSOC);
     }
 
-    public function findCategory()
-    {
-        $sql =  'SELECT * FROM categories';
-
-        $get = $this->conn->prepare($sql);
-
-        $get->execute();
-
-        return $get->fetchAll(\PDO::FETCH_ASSOC);
-    }
 }
