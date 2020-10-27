@@ -1,6 +1,11 @@
 {% extends "layout.php.twig" %}
 
 {% block table %}
+    {% if customers is empty %}
+        <div class="alert alert-danger" role="alert">
+            Não Foi encontrado nenhum cliente!
+        </div>
+    {% else %}
     <div class="container">
         <table class="table table-borderless">
             <thead>
@@ -22,5 +27,5 @@
             </tbody>
         </table>
     </div>
-
+    {% endif %}
 {% endblock %}
