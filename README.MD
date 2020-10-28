@@ -1,4 +1,4 @@
-#Sistema de busca por clientes
+# Sistema de busca por clientes
 
 Aplicação para efetuar uma busca por clientes listando no resultado os seus dados.
 	
@@ -9,7 +9,7 @@ Aplicação para efetuar uma busca por clientes listando no resultado os seus da
 - Composer
 
 
-###Install
+### Install
 - Clone o repositório
 ```
 https://github.com/4ndrenobr3/busca_usuarios.git
